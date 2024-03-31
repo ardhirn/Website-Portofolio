@@ -1,0 +1,279 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'poppins', sans-serif;
+
+}
+
+h2 {
+    text-align: center;
+    margin: 0;
+}
+
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 8%;
+    background: #051916;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a {
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: 50px;
+    margin-left: 35px;
+    transition: .3s;
+}
+
+.navbar a:hover , .navbar a.active {
+    color: #F1875E;
+
+}
+
+.home, .aboutme, .myskill, .portofolio{
+    width: 100%;
+    height: 100vh;
+}
+
+.black-bg {
+    background-color: #051916;
+    color: white;
+    display: inline-block;
+}
+
+.white-bg {
+    background-color: white;
+    color: black;
+    display: inline-block;
+
+}
+
+.home-konten {
+    margin-left: 8%;
+    margin-top: 20%;
+    margin-bottom: 100px;
+    max-width: 520px;
+    margin-right:8%;
+}
+
+.home-konten h1 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.home-konten p {
+    font-size: 14px;
+    margin-top: 10px 0;
+}
+
+.home-konten a {
+    background:#F1875E;
+    padding: 10px 18px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin: 10px 0;
+    border-radius: 50px;
+    transition: .3s;
+}
+
+.home-konten a:hover {
+    color: #051916;
+}
+
+.home-images .bg-img {
+    font-size: 80px;
+    font-weight: bold;
+    color: transparent;
+    -webkit-text-stroke: rgb(228, 228, 228);
+    -webkit-text-stroke-width: 1px;
+    right: 100px;
+    bottom: 100px;
+    position: absolute;
+    transform: translateY(-50%);
+    transition: bottom 3s ;
+}
+
+.home-images .bg-img:hover{
+    bottom: 200px;
+}
+
+.home-images {
+    right: 150px;
+    left: 150px;
+}
+
+.home-images img {
+    height: fit-content;
+    position: absolute;
+    right: 150px;
+    bottom: -100px;
+}
+
+.aboutme {
+    position: relative;
+}
+
+.myskill .judul {
+    left: 0;
+    right: 0;
+}
+
+.aboutme {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100hv;
+}
+
+
+.aboutme .judul {
+    text-align: center;
+    text-align: justify;
+}
+
+.abm-konten {
+    margin-left: 8%;
+    margin-right: 8%;
+    width: 100%;
+    margin-top: 0; 
+    margin-bottom: 100px; 
+}
+
+
+.abm-konten img {
+    max-width: 200px;
+    float: left;
+    margin-right: 20px;
+    margin-top: 50px;
+}
+
+.text-box {
+    text-align: justify;
+    margin-top: 50px;
+
+    
+}
+
+.myskill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100hv;
+}
+
+.myskill .skill-konten h3 {
+    margin-top: 5px;
+}
+
+.skill-konten {
+    margin-left: 8%;
+    margin-right: 8%;
+    width: 100%;
+    margin-top: 0%; 
+    margin-bottom: 50pxpx; 
+}
+
+.container {
+    top: 100px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding: 0;
+    background: #051916;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom:0;
+}
+
+.box1, .box2, .box3 {
+    width: 200px;
+    height: 300px;
+    margin-top: 50px;
+    background-color: #F7F7F7;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+  
+.box1:hover, .box2:hover, .box3:hover {
+    transform: scale(1.2);
+}
+
+
+.portofolio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100hv;
+}
+
+.porto-konten {
+    margin-left: 8%;
+    margin-right: 8%;
+    width: 100%;
+    margin-top: 0%; 
+    margin-bottom: 50pxpx;
+}
+
+.container2 {
+    top: 100px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding: 0;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom:0;
+}
+
+.porto1, .porto2, .porto3 {
+    width: 200px;
+    height: 300px;
+    margin-top: 50px;
+    background-color: #111010;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+  
+.porto1:hover, .porto2:hover, .porto3:hover {
+    transform: scale(1.2);
+}
+
+.porto1 {
+    background-image: url(images/porto1.jpg);
+}
+.porto2 {
+    background-image: url(images/porto2.jpg);
+}
+.porto3 {
+    background-image: url(images/porto3.jpg);
+}
